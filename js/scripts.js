@@ -7,6 +7,11 @@ $(document).ready(function(){
     $(".firstName").text(firstNameInput);
     $(".lastName").text(lastNameInput);
 
+    $("button").click(function() {
+      alert(firstNameInput.toUpperCase());
+    });
+
+
     $(".theLetter").show();
 
     event.preventDefault();
